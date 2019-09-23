@@ -1,0 +1,48 @@
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.error {
+    background: #ffc8c8;
+}
+
+.success {
+    background: #cbffd6;
+}
+
+.warning {
+    background: #ffe2a5;
+}
+
+.black {
+    background: #000000;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+    outline: 0 none;
+}
+
+.btn-primary {
+    background: #0099cc;
+    color: #ffffff;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active,
+.open>.dropdown-toggle.btn-primary {
+    background: #33a6cc;
+}
+
+.btn:active {
+    background: #007299;
+    box-shadow: none;
+}
